@@ -1,0 +1,21 @@
+Approach for prediction of Credit Card Lead
+
+Analysis of Data:
+
+1.Observed the features and their importance in prediction of Credit Card Lead(EDA) using barplots, heatmap, correlation values, violin plots etc.
+
+Data Pre-Processing:
+
+1.Given Dataset is an imbalaced dataset
+2.There are missing values in feature 'Credit_Product' which is one of the required feature for prediction. 
+3.Imputed the missing values with new category and balanced the dataset.
+4.Convert the categorical columns to numerical columns.
+5.Scaled the numerical columns data.
+
+Models:
+
+1.Here we have to apply classfication algorithms(Logistic Regression, Naive Bayes, SVC, Decision Tree, Random Forest Classifier, XGBoost Classifier) for prediction.
+2.Fine Tune the above models for best prediction.
+3.In the python code , there is implementation of Random Forest Classifier with fine tuned parameters which are retrieved using RandomizedSearchCV.
+4.Keep the parameters of Random Forest Classifier such that the model does not overfit on the training data.
+5.The results have been saved to CSV file. 
